@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="tankman.png" width="1573" height="1706">
+	<SubTexture name="trust0000" x="260" y="1185" width="347" height="215" rotated="true" frameX="-560" frameY="-615" frameWidth="1335" frameHeight="1464"/>
+	<SubTexture name="trust0001" x="1330" y="0" width="215" height="347" frameX="-560" frameY="-615" frameWidth="1335" frameHeight="1464"/>
+	<SubTexture name="down0000" x="1371" y="347" width="158" height="344" rotated="true" frameX="-519" frameY="-986" frameWidth="1321" frameHeight="1435"/>
+	<SubTexture name="down0001" x="1362" y="724" width="171" height="327" rotated="true" frameX="-530" frameY="-973" frameWidth="1321" frameHeight="1435"/>
+	<SubTexture name="down0002" x="0" y="1398" width="193" height="303" rotated="true" frameX="-541" frameY="-951" frameWidth="1321" frameHeight="1435"/>
+	<SubTexture name="idle0000" x="0" y="685" width="270" height="372" frameX="-569" frameY="-719" frameWidth="1321" frameHeight="1435"/>
+	<SubTexture name="idle0001" x="1083" y="0" width="247" height="382" frameX="-581" frameY="-709" frameWidth="1321" frameHeight="1435"/>
+	<SubTexture name="idle0002" x="724" y="847" width="378" height="255" rotated="true" frameX="-577" frameY="-713" frameWidth="1321" frameHeight="1435"/>
+	<SubTexture name="idle0003" x="0" y="685" width="270" height="372" frameX="-569" frameY="-719" frameWidth="1321" frameHeight="1435"/>
+	<SubTexture name="idle0004" x="829" y="478" width="282" height="369" frameX="-565" frameY="-722" frameWidth="1321" frameHeight="1435"/>
+	<SubTexture name="left0000" x="865" y="0" width="218" height="472" rotated="true" frameX="-288" frameY="-880" frameWidth="1321" frameHeight="1435"/>
+	<SubTexture name="left0001" x="270" y="749" width="454" height="218" frameX="-319" frameY="-880" frameWidth="1321" frameHeight="1435"/>
+	<SubTexture name="left0002" x="270" y="967" width="446" height="218" frameX="-335" frameY="-880" frameWidth="1321" frameHeight="1435"/>
+	<SubTexture name="right0000" x="976" y="1190" width="334" height="260" rotated="true" frameX="-606" frameY="-739" frameWidth="1321" frameHeight="1435"/>
+	<SubTexture name="right0001" x="1102" y="847" width="260" height="343" frameX="-615" frameY="-739" frameWidth="1321" frameHeight="1435"/>
+	<SubTexture name="right0002" x="1111" y="382" width="260" height="342" frameX="-657" frameY="-741" frameWidth="1321" frameHeight="1435"/>
+	<SubTexture name="right0003" x="716" y="1102" width="260" height="339" frameX="-733" frameY="-742" frameWidth="1321" frameHeight="1435"/>
+	<SubTexture name="right0004" x="0" y="1057" width="260" height="341" frameX="-813" frameY="-742" frameWidth="1321" frameHeight="1435"/>
+	<SubTexture name="right0005" x="976" y="1190" width="334" height="260" rotated="true" frameX="-933" frameY="-744" frameWidth="1321" frameHeight="1435"/>
+	<SubTexture name="right0006" x="1102" y="847" width="260" height="343" frameX="-1055" frameY="-751" frameWidth="1321" frameHeight="1435"/>
+	<SubTexture name="talk0000" x="1310" y="1190" width="263" height="258" frameX="-499" frameY="-587" frameWidth="1288" frameHeight="1313"/>
+	<SubTexture name="talk0001" x="1310" y="1448" width="263" height="258" frameX="-499" frameY="-587" frameWidth="1288" frameHeight="1313"/>
+	<SubTexture name="talk0002" x="1310" y="1190" width="263" height="258" frameX="-499" frameY="-587" frameWidth="1288" frameHeight="1313"/>
+	<SubTexture name="talk0003" x="1310" y="1448" width="263" height="258" frameX="-499" frameY="-587" frameWidth="1288" frameHeight="1313"/>
+	<SubTexture name="talk0004" x="1310" y="1190" width="263" height="258" frameX="-499" frameY="-587" frameWidth="1288" frameHeight="1313"/>
+	<SubTexture name="talk0005" x="1310" y="1448" width="263" height="258" frameX="-499" frameY="-587" frameWidth="1288" frameHeight="1313"/>
+	<SubTexture name="talk0006" x="1310" y="1190" width="263" height="258" frameX="-499" frameY="-587" frameWidth="1288" frameHeight="1313"/>
+	<SubTexture name="talk0007" x="1310" y="1448" width="263" height="258" frameX="-499" frameY="-587" frameWidth="1288" frameHeight="1313"/>
+	<SubTexture name="talk0008" x="1310" y="1448" width="263" height="258" frameX="-499" frameY="-587" frameWidth="1288" frameHeight="1313"/>
+	<SubTexture name="up0000" x="391" y="0" width="237" height="512" frameX="-620" frameY="-535" frameWidth="1321" frameHeight="1435"/>
+	<SubTexture name="up0001" x="628" y="0" width="237" height="478" frameX="-620" frameY="-573" frameWidth="1321" frameHeight="1435"/>
+	<SubTexture name="up0002" x="374" y="512" width="455" height="237" rotated="true" frameX="-620" frameY="-599" frameWidth="1321" frameHeight="1435"/>
+	<SubTexture name="what0000" x="0" y="342" width="374" height="343" frameX="-520" frameY="-620" frameWidth="1416" frameHeight="1461"/>
+	<SubTexture name="what0001" x="0" y="0" width="391" height="342" frameX="-507" frameY="-622" frameWidth="1416" frameHeight="1461"/>
+</TextureAtlas>

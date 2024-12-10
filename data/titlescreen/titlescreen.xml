@@ -1,0 +1,83 @@
+<!DOCTYPE codename-titlestate >
+<titlestate>
+	<sprites folder="menus/titlescreen">
+		<sprite name="logo" sprite="logo" x="50" y="50" antialiasing="false" scale="1.25" beatInterval="1"/>
+		<sprite name="gf" sprite="gf" x="475" y="200" antialiasing="false" scale="2" beatInterval="1">
+			<anim name="danceLeft" anim="gfDance" indices="30,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14" />
+			<anim name="danceRight" anim="gfDance" indices="15,16,17,18,19,20,21,22,23,24,25,26,27,28,29" />
+		</sprite>
+
+		<titleEnter sprite="titleEnter" x="-150" y="-100" />
+	</sprites>
+
+	<intro length="21">
+		<text beat="1">
+			<line text="ninjamuffin99" />
+			<line text="phantomArcade" />
+			<line text="kawaisprite" />
+			<line text="evilsk8er" />
+		</text>
+
+		<text beat="3">
+			<line text="ninjamuffin99" />
+			<line text="phantomArcade" />
+			<line text="kawaisprite" />
+			<line text="evilsk8er" />
+			<line text="presents" />
+		</text>
+
+		<text beat="4" /> <!-- clears the screen !-->
+
+		<text beat="5">
+			<line text="In association" />
+			<line text="with" />
+		</text>
+
+		<text beat="7">
+			<line text="In association" />
+			<line text="with" />
+			<line text="Newgrounds" />
+			<sprite path="menus/titlescreen/newgrounds_logo" scale="0.8"/>
+		</text>
+
+		<text beat="8" /> <!-- clears the screen !-->
+
+		<text beat="9">
+			<line text="Psych" />
+		</text>
+
+		<text beat="11">
+			<line text="Psych" />
+			<line text="YOU FUCKING SUCKS" />
+			<sprite path="menus/titlescreen/newgrounds_logo" scale="0.8"/>
+		</text>
+
+		<text beat="13"/>
+
+		<text beat="15">
+			<line text="cyborg" />
+		</text>
+
+		<text beat="16">
+			<line text="cyborg" />
+			<line text="cyborg" />
+		</text>
+
+		<text beat="17" />
+
+		<text beat="18">
+			<line text="I" />
+		</text>
+
+		<text beat="19">
+			<line text="I" />
+			<line text="Want" />
+		</text>
+
+		<text beat="20">
+			<line text="I" />
+			<line text="Want" />
+			<line text="Kill Myself'" />
+		</text>
+	</intro>
+</titlestate>

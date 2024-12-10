@@ -1,0 +1,16 @@
+<!DOCTYPE codename-engine-character>
+<character y="350" sprite="badword/madborg" scale="2.5" flipX="true" camx="-50" isPlayer="true" holdTime="6.1" icon="cyborgplaymad">
+	<anim name="idle" anim="idle" x="-5" y="0" fps="8" loop="false"/>
+	<anim name="singUP" anim="up" x="175" y="190" fps="8" loop="false"/>
+	<anim name="singLEFT" anim="left" x="48" y="-11" fps="8" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-5" y="59" fps="8" loop="false"/>
+	<anim name="singDOWN" anim="down" x="80" y="-55" fps="8" loop="false"/>
+	<anim name="anim1" anim="anim1" x="-4" y="5" fps="8" loop="false"/>
+	<anim name="anim2" anim="anim2" x="-4" y="4" fps="8" loop="false"/>
+	<anim name="anim3" anim="anim3" x="7" y="-4" fps="8" loop="false"/>
+	<anim name="anim4" anim="anim4" x="-6" y="-23" fps="8" loop="false"/>
+	<anim name="anim1loop" anim="anim10024" x="-4" y="5" fps="8" loop="true"/>
+	<anim name="anim2loop" anim="anim20013" x="-4" y="4" fps="8" loop="true"/>
+	<anim name="anim3loop" anim="anim30006" x="7" y="-4" fps="8" loop="true"/>
+	<anim name="anim4loop" anim="anim40005" x="-6" y="-23" fps="8" loop="true"/>
+</character>

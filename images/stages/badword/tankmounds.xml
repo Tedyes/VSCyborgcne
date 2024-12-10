@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="tankmounds.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="idle0000" x="0" y="0" width="1274" height="197" frameX="2" frameY="-525" frameWidth="1270" frameHeight="720"/>
+	<SubTexture name="idle0001" x="0" y="197" width="1274" height="191" frameX="2" frameY="-531" frameWidth="1270" frameHeight="720"/>
+	<SubTexture name="idle0002" x="0" y="388" width="1274" height="186" frameX="2" frameY="-536" frameWidth="1270" frameHeight="720"/>
+	<SubTexture name="idle0003" x="0" y="574" width="1274" height="180" frameX="2" frameY="-542" frameWidth="1270" frameHeight="720"/>
+	<SubTexture name="idle0004" x="0" y="754" width="1274" height="175" frameX="2" frameY="-547" frameWidth="1270" frameHeight="720"/>
+	<SubTexture name="idle0005" x="0" y="929" width="1274" height="171" frameX="2" frameY="-551" frameWidth="1270" frameHeight="720"/>
+</TextureAtlas>
