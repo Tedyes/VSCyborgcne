@@ -14,6 +14,7 @@
 
 	<dad x="20" y="160"/>
 	<boyfriend x="810"/>
+	<combo x="1250"/>
 
 	<sprite name="moretank" x="150" y="-75" sprite="tankmounds" anim="idle" type="none" scale="2.2" scroll="0.25">
         <anim name="idle" anim="idle" type="loop" />

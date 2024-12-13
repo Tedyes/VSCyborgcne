@@ -1,10 +1,10 @@
 <!DOCTYPE codename-engine-character>
 <character x="500" y="-550" sprite="badword/tankman" scale="1.5" antialiasing="false" camx="-900" camy="300" isPlayer="true" icon="tankman" isGF="false">
 	<anim name="idle" anim="idle" x="0" y="0" fps="12" loop="false"/>
-	<anim name="singRIGHT" anim="right" x="0" y="0" fps="12" loop="false"/>
+	<anim name="singLEFT" anim="right" x="0" y="0" fps="12" loop="false"/>
 	<anim name="singDOWN" anim="down" x="5" y="20" fps="12" loop="false"/>
 	<anim name="singUP" anim="up" x="-15" y="-30" fps="12" loop="false"/>
-	<anim name="singLEFT" anim="left" x="-85" y="35" fps="12" loop="false"/>
+	<anim name="singRIGHT" anim="left" x="-85" y="35" fps="12" loop="false"/>
 	<anim name="what" anim="what" x="145" y="-95" fps="12" loop="true"/>
 	<anim name="talking" anim="talk" x="15" y="-255" fps="12" loop="true"/>
 	<anim name="trust" anim="trust" x="40" y="-100" fps="12" loop="true"/>

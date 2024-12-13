@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="spidergf.png">
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="danceleft0000" x="2" y="2" width="336" height="419" frameX="-19" frameY="0" frameWidth="365" frameHeight="419"/>
+	<SubTexture name="danceleft0001" x="340" y="2" width="346" height="411" frameX="-14" frameY="-6" frameWidth="365" frameHeight="419"/>
+	<SubTexture name="danceleft0002" x="688" y="2" width="365" height="387" frameX="0" frameY="-29" frameWidth="365" frameHeight="419"/>
+	<SubTexture name="danceright0000" x="1055" y="2" width="382" height="358" frameX="-2" frameY="-25" frameWidth="384" frameHeight="384"/>
+	<SubTexture name="danceright0001" x="1439" y="2" width="380" height="368" frameX="0" frameY="-15" frameWidth="384" frameHeight="384"/>
+	<SubTexture name="danceright0002" x="2" y="423" width="350" height="384" frameX="-23" frameY="0" frameWidth="384" frameHeight="384"/>
+</TextureAtlas>

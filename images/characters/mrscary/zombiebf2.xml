@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="zombiebf2.png">
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="down0000" x="2" y="2" width="528" height="337" frameX="0" frameY="-10" frameWidth="528" frameHeight="348"/>
+	<SubTexture name="down0001" x="532" y="2" width="519" height="348" frameX="-4" frameY="0" frameWidth="528" frameHeight="348"/>
+	<SubTexture name="idle0000" x="1053" y="2" width="471" height="411" frameX="-1" frameY="0" frameWidth="472" frameHeight="411"/>
+	<SubTexture name="idle0001" x="1053" y="2" width="471" height="411" frameX="-1" frameY="0" frameWidth="472" frameHeight="411"/>
+	<SubTexture name="idle0002" x="1526" y="2" width="472" height="409" frameX="0" frameY="-2" frameWidth="472" frameHeight="411"/>
+	<SubTexture name="idle0003" x="1526" y="2" width="472" height="409" frameX="0" frameY="-2" frameWidth="472" frameHeight="411"/>
+	<SubTexture name="left0000" x="2" y="415" width="471" height="408" frameX="0" frameY="0" frameWidth="498" frameHeight="408"/>
+	<SubTexture name="left0001" x="475" y="415" width="467" height="408" frameX="-31" frameY="0" frameWidth="498" frameHeight="408"/>
+	<SubTexture name="right0000" x="944" y="415" width="471" height="414" frameX="-104" frameY="0" frameWidth="575" frameHeight="414"/>
+	<SubTexture name="right0001" x="1417" y="415" width="526" height="414" frameX="-49" frameY="0" frameWidth="575" frameHeight="414"/>
+	<SubTexture name="right0002" x="2" y="831" width="571" height="414" frameX="-4" frameY="0" frameWidth="575" frameHeight="414"/>
+	<SubTexture name="right0003" x="575" y="831" width="575" height="414"/>
+	<SubTexture name="right0004" x="1152" y="831" width="575" height="414"/>
+	<SubTexture name="up0000" x="2" y="1247" width="422" height="505" frameX="-24" frameY="0" frameWidth="446" frameHeight="505"/>
+	<SubTexture name="up0001" x="426" y="1247" width="439" height="480" frameX="0" frameY="-24" frameWidth="446" frameHeight="505"/>
+</TextureAtlas>
