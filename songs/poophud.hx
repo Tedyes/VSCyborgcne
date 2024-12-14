@@ -17,9 +17,13 @@ function postCreate(){
         remove(i,true);
     }
     scoreTxt.font = "fonts/Arial Black.ttf";
-    scoreTxt.x += 50; scoreTxt.borderSize = 0; scoreTxt.borderColor = 0xFFFFFFFF;
+    scoreTxt.x += 50; scoreTxt.borderSize = 0;
 
     doIconBop = false; 
+    camGameZoomLerp = 0.15;
+    camHUDZoomLerp = 0.15;
+    allowGitaroo = false;
+    remove(comboGroup);
 }
 
 function onPostCountdown(event) {
@@ -43,6 +47,11 @@ function postUpdate(){
 
     iconP1.scale.set(lerp(iconP1.scale.x, 1, 0.45),lerp(iconP1.scale.y, 1, 0.45));
 	iconP2.scale.set(lerp(iconP2.scale.x, 1, 0.45),lerp(iconP2.scale.y, 1, 0.45));
+    for(i in 0 ... 2){
+        for(c in 0 ... 4){
+            strumLines.members[i].members[c].scale.set(lerp(strumLines.members[i].members[c].scale.x, 0.65, 0.25),lerp(strumLines.members[i].members[c].scale.y, 0.65, 0.25));
+        }
+    }
 }
 
 function beatHit(){
@@ -68,10 +77,8 @@ function onNoteHit(event) {
 
 function onDadHit(event){
     strumLines.members[0].members[event.note.strumID % 4].scale.set(0.5,0.5);
-    FlxTween.tween(strumLines.members[0].members[event.note.strumID % 4].scale, {x: 0.65,y: 0.65}, 0.15);
 }
 
 function onPlayerHit(event){
     strumLines.members[1].members[event.note.strumID % 4].scale.set(0.5,0.5);
-    FlxTween.tween(strumLines.members[1].members[event.note.strumID % 4].scale, {x: 0.65,y: 0.65}, 0.15);
 }

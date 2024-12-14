@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="mrscary/mrscary" scale="2" antialiasing="false" camx="85" camy="100" icon="mrscary" holdTime="6.1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="12" loop="false"/>
+	<anim name="singDOWN" anim="down" x="19.5" y="-29" fps="12" loop="false"/>
+	<anim name="singLEFT" anim="left" x="59.5" y="-24" fps="12" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-5.5" y="-5" fps="12" loop="false"/>
+	<anim name="singUP" anim="up" x="76.5" y="59" fps="12" loop="false"/>
+	<anim name="ha" anim="laugh" x="8" y="24" fps="12" loop="false"/>
+</character>

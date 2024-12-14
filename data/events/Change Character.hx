@@ -55,6 +55,7 @@ function onEvent(_)
         var data = dataShit.pop();
         var character:Character = strumLines.members[_.event.params[0]].characters[_.event.params[1]];
         var isPlayer:Bool = strumLines.members[_.event.params[0]].characters[0].isPlayer;
+        var name = character.getIcon();
         
         strumLines.members[_.event.params[0]].characters.remove(character);
         remove(character);
@@ -67,6 +68,9 @@ function onEvent(_)
             var frame = icon.animation.curAnim.curFrame;
             if (icon.graphic != data.preloadData.icon) {
                 icon.setIcon(character != null ? character.getIcon() : "face");
+                if (name != character.getIcon()){
+                    icon.scale.set(2,0.15);
+                }
                 icon.animation.curAnim.curFrame = frame;
 
                 var leftColor:Int = dad.iconColor != null && Options.colorHealthBar ? dad.iconColor : 0xFFFF0000;
